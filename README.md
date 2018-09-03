@@ -1,2 +1,2 @@
-# Wordpress-Themes
-pandaian.com 当前主题
+# Hexo-Themes
+pandaian.com 主题备份
