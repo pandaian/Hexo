@@ -1,7 +1,7 @@
 # Blog info
-blog_name: Pandaian
-slogan: Find the bug of the world
-url: http://www.pandaian.com
+blog_name: pandaian
+slogan: Be fine, be kind.
+url: https://i.pandaian.com
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
@@ -10,7 +10,7 @@ avatar: /images/avatar.jpg
 favicon: /favicon.ico
 
 # For seo
-keywords: pandaian,熊猫君,ChengHao,程浩,熊猫君的博客
+keywords: pandaian,熊猫君,熊猫君的博客,PANDA,IAN
 
 home_nav:
   - name: Blog
@@ -18,35 +18,32 @@ home_nav:
     target_blank: false #不在新页面打开
   - name: Project
     url: /project/
-    target_blank: true #在新页面打开
+    target_blank: false #在新页面打开
   - name: Github
     url: https://github.com/pandaian
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/xxmch_
+  - name: Bilibili
+    url: https://space.bilibili.com/78015298
     target_blank: true
 
 # config page nav
 page_nav:
-  - name: 博客
+  - name: Blog
     url: /archives/
     target_blank: false # 不在新页面打开
-  - name: 分类
+  - name: Cgy
     url: /category/
     target_blank: false
-  - name: 标签
+  - name: Tag
     url: /tag/
     target_blank: false
-  - name: 友链
+  - name: Link
     url: /link/
     target_blank: false
-  - name: 关于
+  - name: Abt
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
-  - name: 搜索
+  - name: Srch
     url: /search/
     target_blank: false # 在新页面打开
 
@@ -59,21 +56,21 @@ breadcrumb:
 # 盒子
 toolbox:
   isShow: true # true|fase
-  text: 盒子
+  text: Box
 
 search_slogan:
   isShow: true # true|fase
-  text: Can you find the bug of world ~
+  text: You can find the bug of world.
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: Add your link i@pandaian.com
 
 
 # set backtop show or hide
 backtop:
   home: false
-  archive: false
+  archive: true
   category: true
   tag: true
   post: true
@@ -82,15 +79,15 @@ backtop:
 
 donation:
   show: false
-  btn_text: 支持一下
-  tip: 扫一扫，支持forsigner
+  btn_text: SUPPORT
+  tip: Payment QR Code
   items:
-    - type: 微信
-      text: 微信扫一扫
-      imgUrl: /images/qr-wechat.png
-    - type: 支付宝
-      text: 支付宝扫一扫
-      imgUrl: /images/qr-alipay.png
+    - type: WeChat
+      text: WeChat
+      imgUrl: /images/WeChat.png
+    - type: PayPal
+      text: PayPal
+      imgUrl: /images/PayPal.png
 
 
 
@@ -125,10 +122,10 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # =========================================================
 # Stats
 google_analytics:
-baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
+baidu_analytics: 
 
 # Comment service
-disqus_shortname: forsigner
+# disqus_shortname: pandaian
 # gitalk_shortname: forsigner
 # hypercomments_id: 89821
 # gentie_key: d16a7241e7cd4b389584ed8db2a4e8bc
@@ -172,7 +169,7 @@ valine:
 
 
 # 不算子,文章访问量统计和显示
-busuanzi: true
+busuanzi: false
 
 # =========================================================
 # 页面内容设置
@@ -181,26 +178,22 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "Scut，1991，Spring."
-    - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    - "IAN"
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@pandaian"
+    text_value: "pandaian"
     text_value_url: https://github.com/pandaian
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "@潘戴安"
-    text_value_url: http://weibo.com/pandaian
   - type: mail
     icon: icon-mail
-    text_key: Gmail
+    text_key: Mail
     text_value: "i@pandaian.com"
+    text_value_url: mailto:i@pandaian.com
   - type: location
     icon: icon-location
-    text_value: 上海
+    text_key: Location
+    text_value: "Anqing"
+    text_value_url: https://www.google.com/maps/place/30%C2%B031'55.2%22N+117%C2%B006'55.3%22E/@25.3472907,126.4059474,3z/data=!4m5!3m4!1s0x0:0x0!8m2!3d30.532!4d117.11535
 
 link:
   - name: 织网
@@ -242,10 +235,6 @@ project:
     name: beside
     url: https://github.com/forsigner/beside
     intro: I need you beside me
-  - type: personal
-    name: web-fontmin
-    url: https://github.com/forsigner/web-fontmin
-    intro: 字体子集化，在线提取你需要的字体
   - type: personal
     name: magic-check
     url: https://github.com/forsigner/magic-check
